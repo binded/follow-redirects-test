@@ -1,0 +1,19 @@
+{
+  "name": "follow-redirects-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "Oli Lalonde <olalonde@gmail.com> (https://syskall.com/)",
+  "license": "ISC",
+  "dependencies": {
+    "blue-tape": "^1.0.0",
+    "concat-stream": "^1.6.0",
+    "express": "^4.15.3",
+    "follow-redirects": "^0.2.0",
+    "form-data": "^2.2.0",
+    "tape": "^4.6.3"
+  }
+}
