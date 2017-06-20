@@ -3,7 +3,7 @@ services:
   - postgresql
 node_js:
 - '8'
-before_install:
+after_install:
   npm install --save "follow-redirects@${FOLLOW_REDIRECTS_VERSION}"
 env:
   - FOLLOW_REDIRECTS_VERSION=0.2.0
